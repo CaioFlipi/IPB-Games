@@ -1,0 +1,112 @@
+/* Regras existentes */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.icon-size {
+    width: 25px;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ccc;
+}
+
+.hero-slider {
+    background: url('images/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Regras adicionais para o layout */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.bg-light-dark {
+    background-color: rgba(56, 32, 163, 0.8); /* Um tom de cinza com transparência */
+}
+
+/* Regra para manter a seção Resources no final */
+.resources {
+    margin-top: auto;
+}
+
+/* Caixa de login centralizada */
+.login-box {
+    max-width: 400px;
+    width: 100%;
+    background-color: #f8f9fa; /* Cor clara para destacar */
+    padding: 2rem; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+
+
+.bg-gradient {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+.header-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.icon-size {
+    width: 25px;
+    height: 25px;
+}
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #110220;
+}
+.card {
+    border: none;
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Garante que a altura do cartão seja sempre igual */
+}
+
+.card-img-top {
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorção */
+    height: 200px; /* Define uma altura consistente para todas as imagens */
+}
+
+.card-body {
+    flex: 1; /* Permite que o conteúdo do corpo do cartão se expanda para preencher o espaço */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui o conteúdo do corpo uniformemente */
+}
+
+.card-title, .card-text {
+    margin-bottom: 1rem; /* Espaçamento entre os elementos */
+}
+
